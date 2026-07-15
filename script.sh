@@ -17,3 +17,6 @@ docker logs command
 docker build -t mipanzuzu/metadata:1.0.0 metadata
 
 docker inspect mipanzuzu/metadata:1.0.0
+
+# BUILD ARGS
+docker build --build-arg NODE_VERSION=18 -t arg
