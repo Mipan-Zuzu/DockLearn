@@ -1,0 +1,19 @@
+fristname: "mipan"
+lastname: "suki"
+age: 30
+addres: "jl.mekar indah 22 street fighter"
+hobbies: 
+  - Coding
+  - Gowes
+  - Gambar
+  - Renang
+  - lari
+  - Gabut
+addresexplisit: 
+  street: "jalan mambar"
+  city:  "gianyar"
+wallet: 
+  - bank: "BRI"
+    amount: "$10M"
+  - bank: "BCA"
+    amount: "$110M"
