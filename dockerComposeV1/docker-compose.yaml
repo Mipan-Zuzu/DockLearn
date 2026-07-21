@@ -1,8 +1,16 @@
 
 services:
-  nginx-example:
-    container_name: nginx-example
-    image: nginx:latest
-  nginx-example2:
-    container_name: nginx-example2
-    image: nginx:latest
+  postgres-example:
+    container_name: postgres-example
+    image: postgres:latest
+    ports: 
+      - "3032:5432"
+    volumes:
+      - "pgdata:/var/lib/postgresql"
+    environment:
+        POSTGRES_PASSWORD: mipan123
+        POSTGRES_USER: mipan
+        POSTGRES_DB: user 
+      
+volumes:
+  pgdata:
